@@ -4,4 +4,5 @@
 - Cung cấp khả năng ảo hóa toàn bộ máy (máy chủ)
 - Máy ảo mô phỏng/giả lập các thành phần phần cứng của máy vật lý, như CPU, bộ nhớ, card giao diện mạng, bộ điều khiển USB và card âm thanh.
 - Có thể chạy một hệ điều hành khách (guest OS) và nhiều ứng dụng trong môi trường ảo.
-![image](https://github.com/hynhdih/Training_OM/assets/82271913/6b71a71c-b3d6-48a0-bd36-07a864a99e69)
+![VM Architect](https://github.com/hynhdih/Training_OM/assets/82271913/109b6b80-d5df-4b8c-be3a-b465d3bb051a)
+
