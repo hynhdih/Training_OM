@@ -4,4 +4,4 @@
 - Cung cấp khả năng ảo hóa toàn bộ máy (máy chủ)
 - Máy ảo mô phỏng/giả lập các thành phần phần cứng của máy vật lý, như CPU, bộ nhớ, card giao diện mạng, bộ điều khiển USB và card âm thanh.
 - Có thể chạy một hệ điều hành khách (guest OS) và nhiều ứng dụng trong môi trường ảo.
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.] (https://tel4vn.edu.vn/uploads/2020/09/so-sanh-may-ao-va-docker-container-tel4vn.edu_.vn-01.jpg)
+![VM Architect] (https://tel4vn.edu.vn/uploads/2020/09/so-sanh-may-ao-va-docker-container-tel4vn.edu_.vn-01.jpg).
