@@ -60,4 +60,5 @@
     - AWS Management Console (protected by password +MFA)
     - AWS Command Line Interface (CLI): protected by access keys
     - AWS Software Developer Kit (SDK) - for code: protected by access keys
-  - With: Access Key 
+  - With: Access Key ID ~ username
+          Secret Access Key ~ password 
