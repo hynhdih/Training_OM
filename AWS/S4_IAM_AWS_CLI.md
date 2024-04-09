@@ -53,3 +53,11 @@
     ]
 }
 ```
+## 3. Multi Fact or Authentication - MFA
+  - MFA = password you know + security device you own
+  - MFA devices options in AWS
+  - 3 options to access AWS:
+    - AWS Management Console (protected by password +MFA)
+    - AWS Command Line Interface (CLI): protected by access keys
+    - AWS Software Developer Kit (SDK) - for code: protected by access keys
+  - With: Access Key 
