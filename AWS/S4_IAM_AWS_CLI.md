@@ -85,3 +85,4 @@
 ## 7. IAM Guidelines & Best Practices
 - Don’t use the root account except for AWS account setup
 - One physical user = One AWS use
+**- Use the root account only to create your first IAM User and a few account/service management tasks. For everyday tasks, use an IAM User.**
