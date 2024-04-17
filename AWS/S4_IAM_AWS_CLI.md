@@ -61,4 +61,27 @@
     - AWS Command Line Interface (CLI): protected by access keys
     - AWS Software Developer Kit (SDK) - for code: protected by access keys
   - With: Access Key ID ~ username
-          Secret Access Key ~ password 
+          Secret Access Key ~ password
+  - List user by CLI:
+    ```
+    aws iam list-users
+    ```
+## 4. AWS Cloudshell
+- cloud shell is basically a terminal in the cloud of AWS
+- This is going to return for you an API call as if the credentials being used, where the credentials of the accounts of you using the cloud right now
+## 5. IAM Roles
+- EC2
+- Lambda, ...
+- An IAM role is an IAM identity that you can create in your account that has specific permissions.
+- An IAM role is similar to an IAM user, in that it is an AWS identity with permission policies that determine what the identity can and cannot do in AWS.
+- However, instead of being uniquely associated with one person, a role is intended to be assumable by anyone who needs it.
+- Also, a role does not have standard long-term credentials such as a password or access keys associated with it. Instead, when you assume a role, it provides you with temporary security credentials for your role session.
+## 6. IAM Security Tools
+• IAM Credentials Report (account-level)
+  - a report that lists all your account's users and the status of their various credentials
+• IAM Access Advisor (user-level)
+  - Access advisor shows the ser vice permissions granted to a user and when those services were last accessed.
+• You can use this information to revise your policies.
+## 7. IAM Guidelines & Best Practices
+- Don’t use the root account except for AWS account setup
+- One physical user = One AWS use
