@@ -2,4 +2,4 @@
 - Account -> Billing and Cost Management -> Budgets : Control budget 
 
 # Notes:
-- * *Stop instance*:  
+- ***Stop instance***:  
