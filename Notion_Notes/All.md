@@ -25,4 +25,45 @@
 - u: Undo
 - ggdG: Xóa toàn bộ văn bản
 
-# II. 
+# II. Yum
+- Là một công cụ quản lý gói phổ biến trong các hệ điều hành Linux sử dụng hệ thống quản lý gói RPM (Red Hat Package Manager) như CentOS, Fedora, và RHEL (Red Hat Enterprise Linux). **`yum`** được sử dụng để cài đặt, cập nhật, xóa bỏ và quản lý các gói phần mềm trên hệ thống.
+    
+    Dưới đây là một số ví dụ về cách sử dụng **`yum`**:
+    
+    1. **Cài đặt một gói:**
+        
+        ```bash
+        yum install <tên-gói>
+        ```
+        
+    2. **Cập nhật tất cả các gói:**
+        
+        ```bash
+        yum update
+        ```
+        
+    3. **Cập nhật một gói cụ thể:**
+        
+        ```bash
+        yum update <tên-gói>
+        ```
+        
+    4. **Xóa một gói:**
+        
+        ```bash
+        yum remove <tên-gói>
+        ```
+        
+    5. **Tìm kiếm gói:**
+        
+        ```bash
+        yum search <tên-gói>
+        ```
+        
+    6. **Hiển thị thông tin về gói:**
+        
+        ```bash
+        yum info <tên-gói>
+        ```
+    
+    Lưu ý rằng các phiên bản mới của hệ điều hành Linux có thể sử dụng **`dnf`** thay vì **`yum`** làm công cụ quản lý gói mặc định. Tuy nhiên, **`yum`** thường vẫn được hỗ trợ và sử dụng trong nhiều trường hợp.
