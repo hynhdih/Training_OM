@@ -67,3 +67,9 @@
         ```
     
     Lưu ý rằng các phiên bản mới của hệ điều hành Linux có thể sử dụng **`dnf`** thay vì **`yum`** làm công cụ quản lý gói mặc định. Tuy nhiên, **`yum`** thường vẫn được hỗ trợ và sử dụng trong nhiều trường hợp.
+# III. Nginx
+- NGINX, engine-ex, là một phần mềm web server mã nguồn mở.
+    - Ban đầu, nó được sử dụng để phục vụ web HTTP. Tuy nhiên, ngày nay nó cũng được dùng làm reverse proxy, HTTP load balancer và email proxy như IMAP, POP3, và SMTP.
+    - Mục đích giải quyết vấn đề C10k - giới hạn của việc xử lý 10 ngàn kết nối cùng lúc. NGINX sử dụng kiến trúc hướng sự kiện (event-driven) không đồng bộ (asynchronous), giúp nó có khả năng xử lý hàng ngàn kết nối mà không gặp rắc rối.
+    - Vì khả năng mạnh mẽ này, nhiều website có lượng traffic lớn đã sử dụng dịch vụ NGINX, bao gồm các ông lớn công nghệ như Google, Netflix, Adobe, Cloudflare, và WordPress.
+    - So với Apache, một web server phổ biến khác, NGINX có hiệu suất cao hơn nhờ kiến trúc đơn luồng, hướng sự kiện. Ngoài ra, NGINX còn có thể thực hiện các chức năng quan trọng khác như load balancing, HTTP caching.
