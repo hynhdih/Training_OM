@@ -70,58 +70,83 @@
     
     ```
     systemctl status <tên-dịch-vụ>
-    
-    ```
-    
+
  **Khởi động một dịch vụ:**
-    
-    ```
+
     systemctl start <tên-dịch-vụ>
-    
-    ```
-    
+
  **Dừng một dịch vụ:**
-    
-    ```
+
     systemctl stop <tên-dịch-vụ>
-    
-    ```
-    
+
  **Khởi động lại một dịch vụ:**
-    
-    ```
+
     systemctl restart <tên-dịch-vụ>
-    
-    ```
+
     
  **Bật dịch vụ tự động chạy khi khởi động hệ thống:**
     
-    ```
     systemctl enable <tên-dịch-vụ>
-    
-    ```
+
     
  **Tắt dịch vụ tự động chạy khi khởi động hệ thống:**
-    
-    ```
+
     systemctl disable <tên-dịch-vụ>
-    
-    ```
+
     
  **Hiển thị danh sách tất cả các dịch vụ và trạng thái:**
     
-    ```
     systemctl list-units --type=service
     
     systemctl list-units --type=service --state=running
-    ```
     
  **Hiển thị danh sách các dịch vụ đã bật tự động:**
     
-    ```
     systemctl list-unit-files --type=service
     
-    ```
-    
-
 - Lệnh `systemctl` cung cấp một cách linh hoạt để quản lý các dịch vụ và các phần của hệ thống, giúp người quản trị hệ thống Linux dễ dàng thực hiện các tác vụ quản lý hệ thống hàng ngày.
+
+# V. Copy, move and rename file and directories
+- Move to the beginning of a line in the shell by typing Ctrl+A and to the end using Ctrl+E.
+    - copy:
+        - File → thư mục: cp tenfile /tenthumuc
+        - Thư mục → thư mục: cp -rv thumucnguon /thumucdich
+        - cp **`-r`** SOURCE_DIR DEST_DIR với **`--recursive`**: Sao chép thư mục và nội dung bên trong chúng
+        - Example:
+            - cp -r /opt/pix/deployment/* /opt/04.PIX_CORE/04.DEPLOY : Copy toàn bộ nội dung trong thư mục, không lấy tên thư mục chứa
+            - cp -r /opt/pix/monitor /opt/04.PIX_CORE/04.DEPLOY : Copy toàn bộ nội dung trong thư mục, lấy tên thư mục chứa
+- Đổi tên file và thư mục:
+        - mv tenfile tenfilemoi
+- Di chuyển:
+        - File → thư mục: mv file /thumuc
+        - Thư mục → thư mục: mv thumuc /thumucmoi
+
+# VI. Các kiểu đọc nội dung trong file
+- **Các kiểu đọc nội dung trong file**
+    - cat
+        - cat tenfile
+        - cat /thumuc/file
+    - more
+        - more tenfile
+        - more /thumuc/file
+            - Xem từng dòng: Enter
+            - Xem hết: Space
+            - Thoát: q
+    - less
+        - Có thể di chuyển bằng mũi tên để xem
+        - Shift + g: Di chuyển đến cuối văn bản
+        - g: Quay trở lại đầu văn bản
+        - /: Tìm kiếm
+            - n: Next các từ khóa tìm kiếm
+            - Shift + n: Quay trở lại kết quả tìm kiếm ban đầu
+        - q: Thoát
+    - head
+        - head /thumuc/file: Hiển thị 10 dòng đầu
+        - head -n sodong /thumuc/file
+    - tail:
+        - tail thumuc/tenfile: Hiển thị 10 dòng cuối
+        - tail -n sodong /thumuc/file
+    - Xem logs:
+        - tail -f /thumuc/file
+
+    
