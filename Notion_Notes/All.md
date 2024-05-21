@@ -24,3 +24,5 @@
     - **:set nonu:** Ẩn số dòng trong tài liệu.
 - u: Undo
 - ggdG: Xóa toàn bộ văn bản
+
+# II. 
