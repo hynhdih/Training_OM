@@ -30,37 +30,37 @@
     
     Dưới đây là một số ví dụ về cách sử dụng **`yum`**:
     
-    1. **Cài đặt một gói:**
+     **Cài đặt một gói:**
         
         ```bash
         yum install <tên-gói>
         ```
         
-    2. **Cập nhật tất cả các gói:**
+     **Cập nhật tất cả các gói:**
         
         ```bash
         yum update
         ```
         
-    3. **Cập nhật một gói cụ thể:**
+     **Cập nhật một gói cụ thể:**
         
         ```bash
         yum update <tên-gói>
         ```
         
-    4. **Xóa một gói:**
+     **Xóa một gói:**
         
         ```bash
         yum remove <tên-gói>
         ```
         
-    5. **Tìm kiếm gói:**
+     **Tìm kiếm gói:**
         
         ```bash
         yum search <tên-gói>
         ```
         
-    6. **Hiển thị thông tin về gói:**
+     **Hiển thị thông tin về gói:**
         
         ```bash
         yum info <tên-gói>
