@@ -20,3 +20,5 @@
   -  5: generation (AWS improves them over time)
   -  2xlarge: size within the instance class
   -  Ví dụ: t2.micro
+# 4. Security groups and Classic ports
+- 
