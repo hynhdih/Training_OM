@@ -21,4 +21,5 @@
   -  2xlarge: size within the instance class
   -  Ví dụ: t2.micro
 # 4. Security groups and Classic ports
-- 
+- the inbound rules are the rules that allows connectivity from the outside into the EC2 instance.
+- outbound: allow all traffic on IPv4 to anywhere, allows our EC2 instance to get full internet connectivity anywhere
