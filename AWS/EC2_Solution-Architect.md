@@ -1,1 +1,2 @@
-
+- Elastic IP: IP k thay đổi sau mỗi lần bật/tắt Instance
+- Terminate Instance và Delete Elastic IP nếu k sử dụng
