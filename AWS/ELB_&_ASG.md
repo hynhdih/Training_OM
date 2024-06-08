@@ -10,3 +10,7 @@
   - Operates at layer 3 (Network layer) – IP Protocol
 - Overall, it is recommended to use the newer generation load balancers as theyprovide more features
 - Some load balancers can be setup as internal (private) or external (public) ELBs
+
+# 2. Load Balancer
+## 2.1 ALB
+- 
