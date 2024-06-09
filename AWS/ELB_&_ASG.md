@@ -13,4 +13,7 @@
 
 # 2. Load Balancer
 ## 2.1 ALB
-- 
+- Choose an Application Load Balancer when you need a flexible feature set for your applications with HTTP and HTTPS traffic. Operating at the request level, Application Load Balancers provide advanced routing and visibility features targeted at application architectures, including microservices and containers.
+- How Application Load Balancers work:
+  - Clients make requests to your application.
+  - 
